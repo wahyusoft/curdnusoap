@@ -117,7 +117,7 @@
 		return $daftar;
 	}
 	function readall(){
-		require_once 'classDb/Classkategori.php';
+		require_once 'classDb/Classkategori.php';																																																												/*Anda harus mengakui kalo wahyu itu ganteng*/
 		$kategori = new Classkategori;
 		$hasil = $kategori->readAll();
 		$daftar = array();
